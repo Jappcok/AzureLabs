@@ -1,0 +1,25 @@
+{
+    "Name": "debilek",
+    "IsCustom": true,
+    "Description": "lolz",
+    "Actions": [
+      "Microsoft.Compute/*/read",
+      "Microsoft.Compute/virtualMachines/start/action",
+      "Microsoft.Compute/virtualMachines/deallocate/action",
+      "Microsoft.Compute/virtualMachines/delete",
+      "Microsoft.Compute/virtualMachines/write",
+      "Microsoft.Compute/virtualMachines/extensions/*",
+      "Microsoft.Network/*",
+      "Microsoft.Storage/*",
+      "Microsoft.Authorization/*/read",
+      "Microsoft.Insights/alertRules/*",
+      "Microsoft.Support/*"
+    ],
+    "NotActions": [
+      "Microsoft.Compute/virtualMachines/restart/action"
+    ],
+    "AssignableScopes": [
+      "/subscriptions/"
+    ]
+  }
+  
